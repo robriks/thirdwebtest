@@ -25,7 +25,7 @@ module.exports = {
   solidity: "0.8.4",
   networks: {
     mumbai: {
-      url: process.env.API_URL,
+      url: process.env.MUMBAI_ENDPOINT,
       accounts:
         process.env.PK_SECRET !== undefined ? [process.env.PK_SECRET] : [],
     },
