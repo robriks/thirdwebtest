@@ -3,7 +3,7 @@ import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 const sdk = new ThirdwebSDK("mumbai");
 
 async function main() {
-    const contract = await sdk.getContract("0x7E5ee60085b0f6dec4a9551eA36F2DE282b34961");
+    const contract = await sdk.getContract("0xF1109d164BA6e8e80CEBc528A8bF4a4176B5AD54");
 
     const readGreeting = await contract.functions.greet();
     console.log(readGreeting);

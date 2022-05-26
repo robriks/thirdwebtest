@@ -23,6 +23,7 @@
     "solidity-coverage": "^0.7.21"
   },
   "dependencies": {
+    "@thirdweb-dev/cli": "^0.3.6",
     "@thirdweb-dev/contracts": "^2.3.8",
     "@thirdweb-dev/sdk": "^2.2.15"
   }
